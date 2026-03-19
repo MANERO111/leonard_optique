@@ -58,7 +58,7 @@ export default function Navbar() {
               </span>
             </div> */}
             <Image
-              src="/img/logo1.png"
+              src={scrolled ? "/img/logo1.png" : "/img/logo_dark.png"}
               alt="Logo"
               width={150}
               height={150}
