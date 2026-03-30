@@ -9,21 +9,21 @@ const testimonials = [
     role: "Cliente depuis 2015",
     text: "Un service exceptionnel et des conseils toujours pertinents. Mon opticien de confiance à Casablanca depuis des années.",
     rating: 5,
-    avatar: "https://placehold.co/80x80/4a5740/faf6ef?text=FB",
+    avatar: "/img/default.jpg",
   },
   {
     name: "Mohammed A.",
     role: "Client depuis 2018",
     text: "La qualité des verres est incomparable. L'équipe prend le temps de bien comprendre vos besoins et de vous proposer la meilleure solution.",
     rating: 5,
-    avatar: "https://placehold.co/80x80/4a5740/faf6ef?text=MA",
+    avatar: "/img/default.jpg",
   },
   {
     name: "Sophie L.",
     role: "Cliente depuis 2020",
     text: "J'ai découvert Léonard Optique sur recommandation et je n'ai jamais été déçue. Le choix de montures est magnifique et le service est aux petits soins.",
     rating: 5,
-    avatar: "https://placehold.co/80x80/4a5740/faf6ef?text=SL",
+    avatar: "/img/default.jpg",
   },
 ];
 

@@ -6,39 +6,42 @@ import Image from "next/image";
 const galleryItems = [
   {
     // src: "https://images.unsplash.com/photo-1574258495973-f7a4e15e tried-and-true?w=600",
-    src: "/img/1.jpeg",
+    src: "/img/IMG_3106.jpeg",
     fallback: "https://placehold.co/600x400/4a5740/faf6ef?text=Atelier+Optique",
     alt: "Atelier d'optique — travail de précision",
     caption: "Notre Atelier",
   },
   {
-    src: "https://images.unsplash.com/photo-1591076482161-42ce6da69f67?w=600&q=80",
-    // src: "/img/3.jpeg",
+    // src: "https://images.unsplash.com/photo-1591076482161-42ce6da69f67?w=600&q=80",
+    src: "/img/IMG_2756.jpeg",
     fallback: "https://placehold.co/600x400/4a5740/faf6ef?text=Montures",
     alt: "Collection de montures de luxe",
     caption: "Montures de Luxe",
   },
   {
-    src: "https://images.unsplash.com/photo-1577803645773-f96470509666?w=600&q=80",
+    src: "/img/IMG_3101.jpeg",
+    // src: "https://images.unsplash.com/photo-1577803645773-f96470509666?w=600&q=80",
     fallback: "https://placehold.co/600x400/4a5740/faf6ef?text=Verres+M%C3%A9dicaux",
     alt: "Verres médicaux de précision",
     caption: "Verres Médicaux",
   },
   {
     // src: "https://images.unsplash.com/photo-1574258495973-f7a4e15e3b58?w=600&q=80",
-    src: "/img/3.jpeg",
+    src: "/img/IMG_9902.jpeg",
     fallback: "https://placehold.co/600x400/4a5740/faf6ef?text=Examen+de+Vue",
     alt: "Examen de vue professionnel",
     caption: "Examen de Vue",
   },
   {
-    src: "https://images.unsplash.com/photo-1511499767150-a48a237f0083?w=600&q=80",
+    src: "/img/IMG_3100.jpeg",
+    // src: "https://images.unsplash.com/photo-1511499767150-a48a237f0083?w=600&q=80",
     fallback: "https://placehold.co/600x400/4a5740/faf6ef?text=Lunettes+de+Soleil",
     alt: "Lunettes de soleil — collection été",
     caption: "Solaires",
   },
   {
-    src: "https://images.unsplash.com/photo-1473496169904-658ba7c44d8a?w=600&q=80",
+    src: "/img/IMG_9894.jpeg",
+    // src: "https://images.unsplash.com/photo-1473496169904-658ba7c44d8a?w=600&q=80",
     fallback: "https://placehold.co/600x400/4a5740/faf6ef?text=Casablanca+1932",
     alt: "Casablanca — notre ville depuis 1932",
     caption: "Casablanca",
@@ -86,7 +89,7 @@ function GalleryCard({
           src={imgSrc}
           alt={item.alt}
           fill
-          className="object-cover transition-transform duration-700 group-hover:scale-110"
+          className="object-cover  transition-transform duration-700 group-hover:scale-110"
           sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
           onError={() => setImgSrc(item.fallback)}
         />
